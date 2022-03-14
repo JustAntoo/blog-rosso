@@ -1,0 +1,191 @@
+:root{
+    --rosso:darkred;
+     --coloresecondario: #C67F7F;
+      --coloreterziario: #ececec;
+}
+h1 h2 h3 h4 .h1 .h2 .h3 .h4{
+    font-family: 'Nova Square', cursive;
+}
+*{ 
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.titolo{
+    color: var(--rosso);
+}
+.colorenavbar{
+    background-color: white !important;
+}
+.logonavbar{
+    width: 100px;
+}
+.linknavbar{
+    color: black ;
+}
+.linknavbar:hover{
+    color: var(--rosso) ;
+
+}
+.vh100{
+    height: 100vh;
+}
+.immagineheader{
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2)),url(./media/mountains2.png) ,url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.titoloheader{
+    color: var(--rosso);
+}   
+.navbar{
+    position: sticky;
+}
+.paragrafoheader2:before{
+    content: open-quote;
+    font-size: 40px;
+    color: var(--rosso);
+}
+.paragrafoheader2:after{
+    content: close-quote;
+    font-size: 40px;
+    color: var(--rosso);    
+}
+.paragrafoheader2{
+    background-color:var(--coloreterziario)
+}
+.coloresfondo{
+    background-color: var(--coloreterziario);
+}
+.snow{
+    color: var(--rosso);
+    margin-left: 45px;
+}
+.linealoghetti{
+    margin-top: 10px;
+    margin-right: 60px;
+    border-bottom: 2px solid var(--rosso);
+}
+.pseudobottom{
+    position: relative;
+}
+.pseudobottom::before{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: var(--coloreterziario);
+    border-radius: 50%;
+    border: 1px solid var(--rosso);
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.timeline-up{
+    border-bottom: 2px solid var(--rosso);
+    position: relative;
+}
+.timeline-bottom:before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px, solid, var(--rosso);
+    position:absolute
+}
+.loghetti{
+    margin-top: 150px;
+    background-color: var(--coloreterziario);
+    
+}
+.bottonelorem{
+    background-color: var(--rosso);
+    color: var(--coloreterziario);
+    border: var(--rosso);
+}
+.marginebottone{
+    margin-left: 500px;
+}
+.fotoforesta{
+    width: 1900px;
+    height: 50vh;
+}
+/* altra timeline */
+.border-left{
+    border-left: 2px solid var(--rosso);
+}
+.pseudoleft{
+    position: relative;
+}
+.pseudoleft::before{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid var(--rosso);
+    right: 100.3%;
+    margin-top: 3px;
+}
+.titolo4{
+    text-align: left;
+    color: var(--rosso);
+}
+
+/* sezione our timeline */
+
+.titolotimeline{
+margin-left: 110px;
+margin-bottom: 50px;
+color: var(--rosso);
+}
+.immaginicerchiate{
+    border: 3px solid var(--rosso);
+}
+.titoloimmaginicerchiate{
+margin-left: 60px;
+margin-bottom: 50px;
+color: var(--rosso);
+}
+.titolo2immaginicerchiate{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: var(--rosso);
+}
+.immaginesfondoalbero{
+    background: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+/* sezione our team & our benefit */
+
+.titoloimmaginicerchiate2{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    color: var(--rosso);
+    }
+.colonna2immaginicerchi{
+    margin-left: 100px;
+}
+.titolirossi{
+    color: var(--rosso);
+}
+.loghettisocial{
+    color: var(--rosso);
+}
+
+/* footer */
+.linkfooter{
+    margin-top: 8px;
+    margin-right: 40px;
+}
+.titololinkfooter{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.colorefooter{
+    background-color: var(--rosso);
+    color: var(--coloreterziario);
+}
